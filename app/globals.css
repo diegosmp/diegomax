@@ -1,0 +1,34 @@
+:root{
+  --bg-primary: radial-gradient(circle, rgb(20, 1, 51) 22%, rgba(16,0,27,1) 53%, rgba(16,0,27,1) 83%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--bg-primary);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: #f7f7f7;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+.main{
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+}

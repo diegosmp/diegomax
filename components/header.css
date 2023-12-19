@@ -1,0 +1,40 @@
+.header{
+    height: 4rem;
+    padding: 2rem 3rem 1.25rem 3rem;
+    background: rgba(16,0,27,1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list{
+    font-weight: 700;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-list a{
+    color: #bbbbbb;
+}
+
+.singup {
+    padding: .7rem 1rem;
+    border-radius: 6px;
+    background-color: #55555559;
+}
+
+.singup:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.subtitle-logo{
+    font-size: 2rem;
+}
+
+
+
+.header-link:hover{
+    color: #fff;
+}
